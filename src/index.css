@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Exile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+@import "tailwindcss";
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.dark{
+  background-color: rgb(47, 46, 64);
+  color: white;
+}
+
+
+.optionalText {
+  font-family: "Exile", system-ui;
+}
+
+.errorBg {
+  background-image: url(/asset/errorBg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signin {
+  background-image: url(/asset/Signin.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signinBg {
+  background-image: url(/asset/SigninBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered{
+  bottom: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2{
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tips{
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.loader {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  animation: loading-rotate 3s linear infinite;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.item:nth-of-type(1) {
+  background-color: #50DE68;
+  border-radius: 20px 20px 0 20px;
+  border-left: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(2) {
+  background-color: rgb(32, 80, 46);
+  border-radius: 20px 20px 20px 0;
+  border-right: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(3) {
+  background-color: rgb(0, 255, 55);
+  border-radius: 20px 0 20px 20px;
+  border-left: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(4) {
+  background-color: rgb(32, 182, 32);
+  border-radius: 0 20px 20px 20px;
+  border-right: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+@keyframes loading-rotate {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+
+  20% {
+    transform: scale(1) rotate(72deg);
+  }
+
+  40% {
+    transform: scale(0.5) rotate(144deg);
+  }
+
+  60% {
+    transform: scale(0.5) rotate(216deg);
+  }
+
+  80% {
+    transform: scale(1) rotate(288deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
