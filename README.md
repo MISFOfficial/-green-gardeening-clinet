@@ -24,6 +24,13 @@ your friendly online hub for plant lovers and eco-conscious gardeners! Our missi
 - **Frontend**: React, React Router DOM, Tailwind CSS
 - **Backend**: Node js , Express Js, MongoDB
 
+## ✨ Core Features
+- User authentication with JWT
+
+- Responsive design for all devices
+
+- Real-time data updates
+
 ### npm packages
 
 ## Dependencies
@@ -113,3 +120,10 @@ Once the project is set up, you can:
 3. **Deploy**:  
    Follow netlify deployment:  
    drag and drop the dist file
+
+## 🔗 Useful Links
+
+- [Frontend Repo](https://github.com/MISFOfficial/-green-gardeening-clinet)
+- [Backend Repo](https://github.com/MISFOfficial?tab=repositories)
+- [Green Live Site](https://green-gardening-2df7b.web.app/)
+
